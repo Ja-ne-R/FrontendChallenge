@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap');
+/* Basic CSS starter template */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400, 700;
+    font-size: 15px;
+    background-color: #e2f0ff;
+    color: #222;
+    display: flex;              /* Add this */
+    justify-content: center;    /* Center horizontally */
+    align-items: center;        /* Center vertically */
+    min-height: 100vh;          /* Full viewport height */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+}
+
+#qr {
+    width: 200px;
+    height: auto;
+    border-radius: 7px;
+}
+
+#box1 {
+    padding: 10px;
+    background-color: white;
+    width: 200px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: #1f3251ff 0px 10px 20px -20px;
+    text-align: center;
+}
+
+#box2 {
+    font-size: 10px;
+    color: #68778dff;
+    margin: auto;
+    padding-top: -5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    text-align: center;
+}
